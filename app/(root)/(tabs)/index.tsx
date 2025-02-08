@@ -10,6 +10,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Text className=" text-red-300 font-rubik text-3xl">
+        Welcome to the app
+      </Text>
       <Link href={"/sign-in"}>Sign In</Link>
       <Link href={"/explore"}>Explore</Link>
       <Link href={"/profile"}>Profile</Link>
